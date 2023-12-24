@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #faadcd;
+}
+
+#yesButton {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.header_text {
+    font-family: 'Cookie';
+    font-size: 130px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff93a3;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Cookie';
+    border: none;
+    border-radius: 12px;
+    margin-left: 0px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #f96f84;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Cookie';
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.8s ease;
+}
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
